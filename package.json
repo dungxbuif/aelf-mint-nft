@@ -1,0 +1,22 @@
+{
+   "name": "aelf-testnet-deploy-action",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "private": true,
+   "scripts": {
+      "start": "node --inspect index.js"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "aelf-sdk": "^3.4.10",
+      "express": "^4.19.2"
+   },
+   "release": {
+      "branches": [
+         "main"
+      ]
+   }
+}
